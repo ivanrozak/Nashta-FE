@@ -37,7 +37,7 @@ export default function Home() {
               </div>
               <h6>{item.title}</h6>
               <div className="text-secondary">
-                <small>{Moment(item.date).format("d MMMM yyyy")}</small>
+                <small>{Moment(item.date).format("DD MMMM yyyy")}</small>
               </div>
             </div>
             <hr />
